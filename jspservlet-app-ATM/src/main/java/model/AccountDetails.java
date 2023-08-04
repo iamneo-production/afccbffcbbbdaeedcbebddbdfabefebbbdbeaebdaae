@@ -39,4 +39,9 @@ public class AccountDetails{
 	public void setPin(int pin) {
 		this.pin = pin;
 	}
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		AccountDetails obj=new AccountDetails(sc.next(),sc.nextDouble(),sc.nextDouble(),sc.nextInt());
+	}
 }
